@@ -94,6 +94,32 @@ body {
     text-align: center;
 }
 
+/* Make navigation responsive... */
+
+@media only screen and (max-width: 800px) {
+    .linkwrapper{
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "commonsearches commonsearches"
+        "topsearch topadmin"
+        ;
+    }
+    
+    .commonsearches {
+        text-align: left;
+    }
+    
+    .topsearch {
+        text-align: left;
+    }
+    
+    .topadmin {
+        text-align: right;
+    }
+    
+}
+
 /* ### Additional div styling (put colours / corners here) */
 
 
