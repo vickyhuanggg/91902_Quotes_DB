@@ -1,7 +1,7 @@
         
         <div class="box banner">
             
-            <a class="backhome" href="index.php"><h1>Quick Quotes</h1></a>
+            <h1><a class="heading" href="index.php?page=home">Quick Quotes</a></h1>
         </div>    <!-- / banner -->
 
         <!-- Navigation goes here.  Edit BOTH the file name and the link name -->
@@ -10,10 +10,9 @@
             <div class="linkwrapper">
                 <div class="commonsearches">
                     
-                    <a class="topnav" href="index.php?page=showall">All</a> | 
-                    
-                    <a class="topnav" href="index.php?page=recent">Recent</a> | 
-                    <a class="topnav" href="index.php?page=random">Random</a> 
+                    <a href="index.php?page=showall">All</a> | 
+                    <a href="index.php?page=recent">Recent</a> | 
+                    <a href="index.php?page=random">Random</a> 
                 </div>  <!-- / common searches -->
             
                 <div class="topsearch">
