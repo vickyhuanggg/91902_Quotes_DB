@@ -57,7 +57,7 @@ body {
 
 .main {
     grid-area: main;
-    background-color: #eee;  /* very pale grey */
+    background-color: #78C7C7;  /* very pale grey */
     border: solid 1px #CCC;
 }
 
@@ -214,10 +214,19 @@ input {
 /* ##### Results styling, includes 'tags' buttons ##### */
 .results {
     background-color: #f7f7f7;
-    border: solid 1px #00c1b4;
+    border: solid 2px #008B8B;
     padding: 10px;
     
     margin-right: 20px;
     border-radius: 20px;
+}
+
+.tag {
+    background-color: bisque;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;    
+    border: solid 1px #000;
+    border-radius: 5px;
 }
 
