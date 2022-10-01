@@ -35,7 +35,6 @@ if(mysqli_connect_errno()) {
         <div class="box main">
             
             <?php
-            
             if(!isset($_REQUEST['page'])) {
                 include("content/home.php");
             }   // end of if that includes home page
