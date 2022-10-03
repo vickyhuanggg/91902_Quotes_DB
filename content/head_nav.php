@@ -36,7 +36,7 @@
                         
                     ?>
                     
-                    <a href="#"></a>
+                    
                     
                     <!-- add quote in link -->      
                     <a class="topnav top-icons" href="index.php?page=../admin/new_quote" title="Add a quote"><i class="fa fa-plus fa-2x"></i></a>
@@ -46,7 +46,7 @@
                     <a class="topnav top-icons" href="index.php?page=../admin/logout" title="log out"><i class="fa fa-sign-out fa-2x"></i></a>
                     
                     <?php
-                }   // end in admin mode if
+                    }   // end in admin mode if
 
                     else {
                     
