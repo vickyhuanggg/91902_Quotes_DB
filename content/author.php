@@ -6,6 +6,7 @@ if(!isset($_REQUEST['authorID']))
 }
 
 
+
 // Get Author details from author table
 $author_to_find = $_REQUEST['authorID'];
 
